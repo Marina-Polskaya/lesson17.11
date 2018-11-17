@@ -1,4 +1,5 @@
 <?php
+header('Location: /lesson17.11/index.php');
 echo "<pre>";
 print_r([
 	'request' => $_REQUEST,
@@ -7,5 +8,6 @@ print_r([
 	'globals' => $GLOBALS
 ]);
 echo "</pre>";
+
 
 ?>
